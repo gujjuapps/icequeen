@@ -1,0 +1,62 @@
+div.selector,
+div.selector span,
+div.checker span,
+div.radio span,
+div.uploader,
+div.uploader span.action,
+div.button,
+div.button span{background-image:url(../images/spritefroums.png); background-repeat:no-repeat; -webkit-font-smoothing:antialiased;}
+.selector,
+.radio,
+.checker,
+.uploader,
+.button,
+.selector *,
+.radio *,
+.checker *,
+.uploader *,
+.button *{margin:0; padding:0}
+/* Select */
+
+div.selector{background-position:-483px -36px; line-height:30px; height:38px}
+div.selector span{background-position:right 0px; height:37px; line-height:30px}
+div.selector select {/* change these to adjust positioning of select element */ top:0px; left:0px}
+div.selector:active,
+div.selector.active{background-position:-483px -36px}
+div.selector:active span,
+div.selector.active span{background-position:right 0px}
+div.selector.focus,
+div.selector.hover,
+div.selector:hover{background-position:-483px -36px}
+div.selector.focus span,
+div.selector.hover span,
+div.selector:hover span{background-position:right 0px}
+div.selector.focus:active,
+div.selector.focus.active,
+div.selector:hover:active,
+div.selector.active:hover{background-position:-483px -36px}
+div.selector.focus:active span,
+div.selector:hover:active span,
+div.selector.active:hover span,
+div.selector.focus.active span{background-position:right 0px}
+div.selector.disabled{background-position:-485px -36px}
+div.selector.disabled span{background-position:right 0px}
+div.selector{width:100%; font-size:13px; }
+div.selector select{min-width:100%;  font-size:16px; border:none}
+div.selector span{padding:4px 25px 0 2px; *padding:0px 0px 0px 2px; cursor:pointer}
+div.selector span{color:#666; width:100%; text-shadow:0 1px 0 #fff}
+div.selector.disabled span{color:#bbb}
+.selector,
+.checker,
+.button,
+.radio,
+.uploader{display:-moz-inline-box; display:inline-block; vertical-align:middle; zoom:1; *display:inline}
+.selector select:focus,
+.radio input:focus,
+.checker input:focus, 
+.uploader input:focus{outline:0}
+div.selector{position:relative; padding-left:10px; overflow:hidden}
+div.selector span{display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-family: 'latoregular'; font-size:16px; color:#3a3a3a;}
+div.selector select{position:absolute; opacity:0; filter:alpha(opacity:0); height:38px; border:none; background:#FFF; font-family: 'latoregular'; font-size:16px; color:#3a3a3a;}
+.styled-select1{ width:47%; float:left; margin-right: 3%;}
+.styled-select2{ width:50%; float:left; margin-right: 0;}
